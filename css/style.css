@@ -1,0 +1,487 @@
+/*general css*/
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Titillium Web', sans-serif;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+.container2{
+	width: 65%;
+	margin: 0 auto;
+}
+
+/*header css*/
+.header{
+	background-color: #87509C;
+	overflow: hidden;
+	padding: 30px 0;
+}
+.header .logo{
+	width: 25%;
+	float: left;
+}
+.menu{
+	width: 75%;
+	float: left;
+	font-weight: 400;
+}
+.menu ul{
+	list-style: none;
+	text-align: right;
+}
+.menu ul li{
+	display: inline-block;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	text-transform: uppercase;
+	padding: 5px 20px;
+}
+.menu ul li a.active{
+	background-color: #643A79;
+	border-radius: 5px;
+}
+.menu ul li:hover a{
+	background-color: #643A79;
+	border-radius: 10px;
+}
+/*Banner css*/
+.banner{
+	text-align: center;
+	background-color: #87509C;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 640px;
+	color: #fff;
+}
+.banner-content{
+	padding: 120px 0;
+}
+.banner-content h1{
+	font-weight: 700;
+	font-size: 50px;
+	word-spacing: 5px;
+	margin-bottom: 60px;
+}
+.banner-content a{
+	text-transform: uppercase;
+	text-decoration: none;
+	background-color: #EB7D4B;
+	color: #fff;
+	font-weight: 600;
+	font-size: 18px;
+	padding: 30px 80px;
+	margin-bottom: 140px;
+}
+
+/*Service css*/
+.sevrices{
+	background-color: #17C2A4;
+	color: #fff;
+	padding-bottom: 100px;
+}
+.service-about{
+	width: 54%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+	margin-bottom: 80px;
+}
+.service-about h1{
+	font-weight: 700;
+	font-size: 40px;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+}
+.service-about p{
+	font-weight: 400;
+	font-size: 18px;
+}
+.service{
+	overflow: hidden;
+}
+.service-content{
+	width: 19%;
+	float: left;
+	margin-left: 3%;
+	margin-right: 3%;
+	text-align: center;
+}
+
+.service-content h2{
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+
+/*team css*/
+.team{
+	background-color: #E7F1F8;
+	padding-bottom: 100px;
+}
+.about{
+	width: 62%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+	margin-bottom: 80px;
+}
+.about h1{
+	color: #3C4761;
+	font-weight: 700;
+	font-size: 42px;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+}
+.about p{
+	font-weight: 400;
+	font-size: 19px;
+	color: #3c4761;
+}
+.team1{
+	overflow: hidden;
+}
+.team-member{
+	width: 19%;
+	float: left;
+	margin-left: 3%;
+	margin-right: 3%;
+	text-align: center;
+}
+.team-member .img img{
+	border-radius: 50%;
+	margin-bottom: 45px;
+	height: 200px;
+	width: 200px;
+	/*background-color: #878787;*/
+}
+.team-member h2{
+	font-weight: 700;
+	font-size: 20px;
+	color: #3C4761;
+	text-transform: uppercase;
+}
+.team-member span{
+	font-weight: 400;
+	color: #30bae7;
+}
+.team-member p{
+	font-weight: 300;
+	color: #3C4761;
+	margin: 30px 0;
+}
+.team-member .social-icon ul{
+	list-style: none;
+}
+.team-member .social-icon ul li{
+	display: inline-block;
+}
+.team-member .social-icon ul li a{
+	margin-right: 10px;
+}
+..team-member .social-icon ul li:last-child a{
+	margin-right: none;
+}
+.team-member .social-icon ul li a img{}
+
+/*skill section css*/
+.skill-section{
+	padding-bottom: 100px;
+	color: #3C4761;
+}
+.about-skill{
+	width: 55%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+	margin-bottom: 80px;
+}
+.about-skill h1{
+	font-weight: 700;
+	font-size: 40px;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+}
+.about-skill p{
+	font-weight: 400;
+	font-size: 18px;
+}
+#bars {
+	margin: 2em auto;
+	max-width: 960px;
+	overflow: hidden;
+}
+
+.bar {
+	float: left;
+	width: 25%;
+	text-align: center;
+}
+.bar h3 {
+	font-size: 1.4em;
+	font-weight: normal;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+.bar-circle {
+	display: block;
+	margin: 0.7em auto;
+}
+/*skill section css*/
+
+
+/*portfolio css*/
+.portfolio{
+	background-color: #FFDD99;
+	color: #393939;
+	padding-bottom: 100px;
+	overflow: hidden;
+}
+.about-portfoilo{
+	width: 55%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+	margin-bottom: 80px;
+}
+.about-portfoilo h1{
+	font-weight: 700;
+	font-size: 42px;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+}
+.about-portfoilo p{
+	font-weight: 400;
+	font-size: 19px;
+	margin-bottom: 45px;
+}
+.about-portfoilo ul li{
+	display: inline-block;
+}
+.about-portfoilo ul li a{
+	text-decoration: none;
+	color: #000;
+	display: block;
+	text-transform: uppercase;
+	padding: 5px 20px;
+	background-color: #E9E0CD;
+    border-radius: 5px;
+
+}
+.about-portfoilo ul li a:hover{
+	background-color: #fff;
+	
+}
+.about-portfoilo ul li a.active{
+	background-color: #fff;
+	border-radius: 5px;
+}
+.portfolio-content{
+	overflow: hidden;
+	margin-top: 60px;
+	margin-bottom: 80px; 
+}
+.imgs{
+	width: 40%;
+	float: left;
+	text-align: center;
+}
+.imgs:first-child{
+	margin-right: 11%;
+}
+.imgs:nth-child(3){
+	margin-right: 11%;
+}
+.imgs img{
+	margin-top: 65px;
+	margin-bottom: 30px;
+}
+.imgs span{
+	font-weight: 400;
+	text-transform: uppercase;
+}
+.project{
+	text-align: center;
+}
+.project a{
+	text-decoration: none;
+	color: #393939;
+	background-color: #17C2A4;
+	font-weight: 600;
+	font-size: 18px;
+	padding: 30px 80px;
+	text-transform: uppercase;
+	border-radius: 5px;
+}
+
+/*sidebar css*/
+.sidebar{
+	background-color: #D74680;
+	color: #fff;
+	padding-bottom: 100px;
+	overflow: hidden;
+}
+.about-sidebar{
+	width: 55%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+	margin-bottom: 80px;
+}
+.about-sidebar h1{
+	font-weight: 700;
+	font-size: 39px;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+}
+.about-sidebar p{
+	font-weight: 400;
+	font-size: 19px;
+	margin-bottom: 45px;
+}
+.sidebar-content{
+	width: 40%;
+    float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+	margin-top: 20px;
+}
+.sidebar-content .sidebar-people{
+	width: 20%;
+	float: left;
+}
+.sidebar-content .sidebar-people img{
+	height: 100px;
+	width: 100px;
+	background-color: #878787;
+	border-radius: 50%;
+	margin-bottom: 45px;
+}
+.sidebar-content .sidebar{
+	width: 60%;
+	float: right;
+	text-align: left;
+}
+.sidebar-content .sidebar p{
+	font-size: 18px;
+	font-style: italic;
+}
+.sidebar-content .sidebar h2{
+	font-size: 24px;
+	font-weight: 700;
+	margin-top: 25px;
+	text-transform: uppercase;
+}
+.sidebar-content .sidebar span{
+	font-size: 18px;
+	color: #ffdd99;
+}
+/*touch css*/
+.touch{
+	background-color: #3C5499;
+	color: #fff;
+	padding-bottom: 100px;
+	overflow: hidden;
+}
+.about-touch{
+	width: 55%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+	margin-bottom: 80px;
+}
+.about-touch h1{
+	font-weight: 700;
+	font-size: 42px;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+}
+.about-touch p{
+	font-weight: 400;
+	font-size: 18px;
+	margin-bottom: 45px;
+}
+.touch-form{
+	overflow: hidden;
+	text-align: center;
+}
+.touch-form #name{
+	width: 45%;
+	height: 50px;
+	color: #fff;
+	font-size: 18px;
+	float: left;
+	margin-right: 10%;
+	background-color: #273A71;
+}
+.touch-form #email{
+	width: 45%;
+	height: 50px;
+	color: #fff;
+	font-size: 18px;
+	float: right;
+	background-color: #273A71;
+}
+.touch-form #Message{
+	width: 100%;
+	height: 200px;
+	color: #fff;
+	font-size: 18px;
+	color: #fff;
+	background-color: #273A71;
+	margin: 20px 0;
+}
+input[type=submit] {
+  background-color: #30BAE7;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/*footer css*/
+.footer{
+	overflow: hidden;
+	background-color: #344B8E;
+	padding: 20px 0;
+	padding-left: 200px;
+}
+.footer-content ul{
+	list-style: none;
+}
+.footer-content ul li{
+	float: left;
+}
+.footer-content ul li a{
+	text-decoration: none;
+	color: #fff;
+	margin: 0 20px;
+	font-size: 24px;
+}
+.footer-content ul li:first-child a{
+	margin-left: 0;
+}
+.footer-content ul li:last-child a{
+	margin-right: 0;
+}
+.footer-content ul li:hover a{
+	color: #30BAE7;
+}
+
